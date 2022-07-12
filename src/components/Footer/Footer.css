@@ -1,0 +1,9 @@
+.footer {
+display: flex;
+font-size: small;
+}
+
+.footer-copy {
+padding: 3 rem;
+text-align: center;
+}

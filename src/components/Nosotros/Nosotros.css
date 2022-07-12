@@ -1,0 +1,20 @@
+.contenedor-nosotros {
+    padding-top: 100px;
+    margin: 20px auto;
+    width: 400px;
+    color: rgb(24, 24, 173);
+}
+
+.titulo-nosotros {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.parrafo-nosotros {
+    text-align: justify;
+    line-height: 2;
+    font-weight: 500;
+    font-style: courier;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,700&display=swap');
+
+.tarjeta {
+    background-color: black;
+    width: 300px;
+    margin: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(204, 39, 39);
+    border-radius: 8px;
+    box-shadow: 2px 3px 5px;
+}
+
+.tarjeta-img {
+    width: 80%;
+}
+
+.tarjeta-img img {
+    width: 100%;
+    filter: drop-shadow(0 0 0.35rem #fff);
+}
+
+.titulo-producto {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 7px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.producto-stock {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.producto-descripcion a {
+    text-decoration: none;
+}
+
+.producto-detalles-boton {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 7px;
+    margin: 7px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.producto-detalles-boton:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #0275fd;
+}

@@ -1,0 +1,81 @@
+.contenedor-contador {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-contador-botones {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.disminuir-cantidad,
+.aumentar-cantidad {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.disminuir-cantidad:hover {
+    color: #fff;
+    background-color: #a80707;
+    border-radius: 5px;
+}
+
+.contador {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.aumentar-cantidad:hover {
+    color: #fff;
+    background-color: #108101;
+    border-radius: 5px;
+}
+
+.contenedor-agregar-carrito:hover {
+    background-color: #108101;
+}
+
+.agregrar-carrito {
+    width: 12.5rem;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.agregrar-carrito:hover {
+    background-color: #007f5f;
+}
+
+.contenedor-post-agregar-carrito {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-post-agregar-carrito a {
+    text-decoration: none;
+}
+
+.contenedor-post-agregar-carrito button {
+    width: 180px;
+    padding: 10px 3px;
+    margin: 5px 0;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+.contenedor-post-agregar-carrito button:hover {
+    background-color:  #0275fd;
+    color: #fff;
+}

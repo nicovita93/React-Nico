@@ -1,0 +1,30 @@
+.contenedor-categoria {
+    padding-top: 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.contenedor-categoria a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+}
+
+.contenedor-categoria a img {
+    width: 105px;
+    transition: 0.3s;
+}
+
+.contenedor-categoria a img:hover {
+    filter: drop-shadow(2px 2px 0.35rem #fff);
+}
+
+.contenedor-categoria a h2 {
+    font-size: 1.3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
