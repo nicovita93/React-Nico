@@ -7,12 +7,26 @@ import ItemList from '../ItemList/ItemList'
 import Nosotros from '../Nosotros/Nosotros'
 import './ItemListContainer.css'
 
+import { getFirestore, doc, getDoc } from 'firebase/firestore/lite';
+
 const ItemListContainer = () => {
 const [productos, setProductos] = useState([])
 const [loading, setLoading] = useState(true)
 const {categoryId} = useParams()
 
-  useEffect(() => {
+/* useEffect (() => {
+  const db = getFirestore();
+
+  const pastaRef = doc(db, "pastas", "0V6BlXm1MmzIDosRzSax")
+
+  getDoc(pastaRef).then((snapshot) => {
+      if (snapshot.exists()){
+        setProductos({...snapshot.data()})
+      } 
+  })
+  }, []) */
+
+   useEffect(() => {
       if (categoryId) {
         getProduct.then( res => {
         return res
@@ -30,7 +44,9 @@ const {categoryId} = useParams()
           .finally(() => setLoading(false))          
       }
   
-  }, [categoryId])
+  }, [categoryId]) 
+
+
   //! Asincronia con async (promesa)
   // try {
     // const consulta = async () => {
@@ -65,7 +81,8 @@ const {categoryId} = useParams()
                 <BootsCarousel />                    
                 <Nosotros />
                 <Category />
-                <ItemList productos= { productos } />
+                {console.log(productos)}
+                { <ItemList productos= { productos } /> }
             </div>
             }
         </div>

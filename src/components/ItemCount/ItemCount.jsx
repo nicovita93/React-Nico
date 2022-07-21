@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react'
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 import './ItemCount.css'
 
 function ItemCount({ stock, initial, onAdd }) {

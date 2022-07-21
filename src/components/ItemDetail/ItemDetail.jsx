@@ -1,3 +1,4 @@
+import React from 'react';
 import { HashLink } from 'react-router-hash-link'
 import { useCartContext } from '../context/cartContext'
 import ItemCount from '../ItemCount/ItemCount'

@@ -1,3 +1,4 @@
+import React from 'react';
 import todos from '../../assets/images/categorias/todos.png'
 import fideos from '../../assets/images/categorias/pasta.png'
 import ñoquis from '../../assets/images/categorias/ñoquis.png'
