@@ -2,6 +2,29 @@
     padding-top: 150px;
     padding-bottom:60px;
     display: flex;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
+.clearbutton {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0b4b69;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(5, 29, 73);
+  }
+  
+  .clearbutton:hover {background-color: #339ebe}
+  
+  .clearbutton:active {
+    background-color: #0b4b69;
+    box-shadow: 0 5px rgb(5, 29, 73);
+    transform: translateY(4px);
+  }

@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react'
 import { HashLink } from 'react-router-hash-link';
 import './ItemCount.css'
+import swal from 'sweetalert';
 
 function ItemCount({ stock, initial, onAdd }) {
     const [count, setCount] = useState(initial)
@@ -24,6 +25,13 @@ function ItemCount({ stock, initial, onAdd }) {
     const agregarAlCarrito = () => {
         onAdd(count)
         setCambiarBoton(false)
+        swal({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Agregado con exito',
+            showConfirmButton: false,
+            timer: 1000
+          })
     }
 
   return (

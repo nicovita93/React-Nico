@@ -8,7 +8,7 @@ const Cart = () => {
   return (
     <div className='contenedor-cart' id='cart'>
       {cartList.map(item => <li>{item.title} {item.quantity}</li>)}
-      <button onClick={clearCart}>Borrar carrito</button>
+      <button class="clearbutton" onClick={clearCart}>Borrar carrito</button>
     </div>
   )
 }

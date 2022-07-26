@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <><footer class="footer">
       <h3><Link to='/'>
-		<img src={ logo } className= "logo" alt="logo go shipping"/>
+		<img src={ logo } className= "logo" alt="logo la ripa"/>
 		</Link></h3>
       <h3>Contacto: <a href="mailto:laripapastas@gmail.com">laripapastas@gmail.com</a> </h3>
       <h3>Seguinos en nuestras Redes sociales: <a href="https://www.instagram.com/?hl=es">@laripa.pastascaseras</a></h3>

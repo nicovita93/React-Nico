@@ -1,5 +1,6 @@
 import React from 'react';
 import { createContext, useState, useContext } from "react";
+import Swal from 'sweetalert2';
 
 export const CartContext = createContext([])
 export const useCartContext = () => useContext(CartContext)
@@ -15,6 +16,13 @@ function CartContextProvider({ children }) {
 
     const clearCart = () => {
         setCartList([])
+        Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Has borrado el carrito con éxito',
+            showConfirmButton: false,
+            timer: 1500
+          })
     }
 
     const isInCart = itemId => {

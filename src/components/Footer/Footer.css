@@ -1,9 +1,29 @@
 .footer {
-display: flex;
-font-size: small;
+    display: flex;
+    font-size: x-small;
+    align-items: center;
+    padding-inline: 1.5rem;
+    justify-content: space-between;
+}
+    
+.footer-copy {
+    padding: 3 rem;
+    text-align: center;
+}
+ 
+a   {
+    text-align:center;
+    color: rgb(13, 46, 109);
+    font-size: medium;
+}
+   
+h3  {
+    text-align:center;
+    color: rgb(13, 46, 109);
+    font-size: medium;
 }
 
-.footer-copy {
-padding: 3 rem;
-text-align: center;
+.logo {
+        width: 75px
 }
+    
