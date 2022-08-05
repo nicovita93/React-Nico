@@ -11,14 +11,14 @@ const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true)
     const {detailId, categoryId } = useParams()
 //! Llamada a la api
-/* useEffect(() => {
+ useEffect(() => {
   getProduct
   .then(resp => setProducto(resp.find(producto => producto.id === detailId, categoryId)))
   .catch(err => err)
   .finally( () => setLoading(false))
-},[detailId, categoryId]) */
+},[detailId, categoryId]) 
 
- useEffect (() => {
+/*  useEffect (() => {
   const db = getFirestore();
 
   const pastaRef = doc(db, "pastas", "0V6BlXm1MmzIDosRzSax")
@@ -29,7 +29,7 @@ const ItemDetailContainer = () => {
       } 
   })
   }, []) 
- console.log(producto)
+ console.log(producto) */
 
   return (
     <>

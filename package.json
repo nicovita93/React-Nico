@@ -54,5 +54,6 @@
   "bugs": {
     "url": "https://github.com/nicovita93/React-Nico/issues"
   },
-  "homepage": "https://github.com/nicovita93/React-Nico#readme"
+  "homepage": "https://github.com/nicovita93/React-Nico#readme",
+  "devDependencies": {}
 }
