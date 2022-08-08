@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import CartWidget from '../CartWidget/CartWidget'
 import logo from './logo.png'
-import './NavBar.css'
+import './Navbar.css'
 
 const NavBar = () => {
   return (
@@ -12,9 +12,9 @@ const NavBar = () => {
 		<img src={ logo } className= "logo" alt="logo go shipping"/>
 		</Link>
 		<nav className="navegacion">
-			<HashLink to='/#home'><li>inicio</li></HashLink>
-			<HashLink to='/#nosotros'><li>nosotros</li></HashLink>
-			<HashLink to='/#category'><li>productos</li></HashLink>
+			<HashLink to='/#home'><li>Inicio</li></HashLink>
+			<HashLink to='/#nosotros'><li>Nosotros</li></HashLink>
+			<HashLink to='/#category'><li>Productos</li></HashLink>
 		</nav>
 	<CartWidget />
 	</header>
